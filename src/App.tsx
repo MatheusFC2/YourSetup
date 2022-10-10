@@ -1,8 +1,11 @@
+import { AuthGoogleProvider } from './contexts/authGoogle.js'
+import Router from './routes/routes'
+
 export function App() {
   return (
-    <div>
-      <h1>asdasd</h1>
-    </div>
+    <AuthGoogleProvider>
+      <Router />
+    </AuthGoogleProvider>
   )
 }
 
