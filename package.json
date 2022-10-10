@@ -32,8 +32,10 @@
     "npm": "^8.15.x"
   },
   "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "react": "^18.x",
-    "react-dom": "^18.x"
+    "react-dom": "^18.x",
+    "react-router-dom": "^6.4.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.x",
